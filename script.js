@@ -16,7 +16,7 @@ const cap1 = { ...person };
 
 // Testing modifications
 players.push("Sarah");
-person.name = "Alice Johnson";
+person.name =  "John Doe";
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
