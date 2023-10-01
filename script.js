@@ -1,5 +1,4 @@
 const players = ["John", "Bob", "Alice", "Poppy"];
-
 const person = {
   name: "John Doe",
   age: 80,
@@ -17,10 +16,7 @@ const cap1 = { ...person };
 // Testing modifications
 players.push("Sarah");
 person.name = "Alice Johnson";
-// Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
-window.players = players;
-window.person = person;
-window.team = team;
-window.team1 = team1;
-window.cap1 = cap1;
+console.log("Team:", team); // This will reflect changes in players
+console.log("Team1:", team1); // This will not reflect changes in players
+console.log("Cap1:", cap1); // This will not reflect changes in person
