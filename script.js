@@ -9,7 +9,7 @@ const person = {
 const team = players;
 
 // Create a copy of players
-const team1 = players.slice();
+// const team1 = players.slice();
 
 // Create a shallow copy of the person object
 const cap1 = { ...person };
